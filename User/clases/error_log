@@ -1,0 +1,8 @@
+[11-Aug-2021 20:22:34 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 26
+[11-Aug-2021 20:24:18 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 26
+[11-Aug-2021 20:24:40 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 26
+[11-Aug-2021 20:26:43 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 26
+[11-Aug-2021 20:27:17 UTC] PHP Warning:  mysqli::__construct(): php_network_getaddresses: getaddrinfo failed: Name or service not known in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 26
+[11-Aug-2021 20:28:43 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ';' or ',' in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 6
+[11-Aug-2021 20:28:50 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ';' or ',' in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 6
+[11-Aug-2021 20:29:24 UTC] PHP Parse error:  syntax error, unexpected ']', expecting ';' or ',' in /home/cvreggza/public_html/User/clases/Conex_DB.php on line 6

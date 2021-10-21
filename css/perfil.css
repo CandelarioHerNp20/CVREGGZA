@@ -1,0 +1,109 @@
+            body {
+    background-image: none;
+}
+
+.con {
+    border: 1px solid #000;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 340px;
+    background: #ffffff;
+    padding: 0 20px;
+}
+
+.contenido-tar {
+    display: flex;
+    width: 600px;
+    height: auto;
+    background: white;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px 2px #077bff;
+}
+
+.info {
+    background-attachment: white;
+}
+
+.hea .info {
+    padding: 0;
+    text-align: center;
+}
+
+.hea a {
+    position: relative;
+    display: block;
+}
+
+.hea .ima {
+    border-radius: 49%;
+    box-shadow: 0 0 8px #077bff;
+    margin: 2px 30px;
+    transition: .5s;
+    float: left;
+}
+
+.hea a:hover .ima {
+    box-shadow: 0 0 0 12px #1f1fb650;
+}
+
+.hea h2 {
+    color: rgb(202, 4, 4);
+}
+
+
+/*iconos*/
+
+.icon {
+    border-radius: 19%;
+    box-shadow: 0 0 2px #DC3545;
+    margin: 2px 30px;
+    transition: .5s;
+    padding: 10px;
+    margin: 10px;
+    float: right;
+    width: 50px;
+}
+
+.ed {
+    float: right;
+}
+
+@media screen and (max-width:800px) {
+    header {
+        background-position: center;
+    }
+    .hea .ima {
+        border-radius: 49%;
+        box-shadow: 0 0 8px #077bff;
+        margin: 2px 30px;
+        transition: .5s;
+        float: left;
+        width: 150px;
+    }
+    @media screen and (max-width:700px) {
+        header {
+            background-position: center;
+        }
+        .hea .ima {
+            border-radius: 49%;
+            box-shadow: 0 0 8px #077bff;
+            margin: 2px 30px;
+            transition: .5s;
+            float: left;
+            width: 120px;
+        }
+        /*Responsivo a los 600px*/
+        @media screen and (max-width:600px) {
+            header {
+                background-position: center;
+            }
+            .hea .ima {
+                border-radius: 49%;
+                box-shadow: 0 0 8px #077bff;
+                margin: 2px 30px;
+                transition: .5s;
+                float: left;
+                width: 100px;
+            }

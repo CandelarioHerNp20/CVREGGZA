@@ -1,0 +1,96 @@
+/*css para hacer responsibo el footer*/
+
+.nc {
+    background-color: #DC3545;
+}
+
+.nav-item :hover {
+    border: solid 1px red;
+    border-radius: 5px;
+}
+
+footer {
+    background: #404040;
+    padding: 20px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.contenedor-footer {
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ffffff;
+}
+
+.c-foo {
+    text-align: center;
+}
+
+.c-foo h4 {
+    color: white;
+    border-bottom: 3.5px solid #ffffff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.c-foo p {
+    color: gray;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.fn {
+    text-align: center;
+    font-size: 18px;
+    margin: 22px 0 0 0;
+    color: gray;
+}
+
+
+/*Ajuste despues de los 800px para el footer*/
+
+@media screen and (max-width:800px) {
+    header {
+        background-position: center;
+    }
+    .contenedor-c2 {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contenedor-c1 .contenido-t {
+        width: 90%;
+    }
+    .imagen_SB {
+        width: 90%;
+    }
+}
+
+
+/*Ajuste despues de los 500px para el footer*/
+
+@media screen and (max-width:500px) {
+    nav {
+        text-align: center;
+        padding: 30px 0 0 0;
+    }
+    nav>a {
+        margin-right: 5px;
+    }
+    .header-txt h1 {
+        font-size: 29px;
+    }
+    .header-txt h2 {
+        font-size: 20px;
+    }
+    .imagen_SB {
+        margin-bottom: 60px;
+        width: 99%;
+    }
+    .contenedor-c1 .contenido-t {
+        width: 85%;
+    }
+}

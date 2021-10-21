@@ -1,0 +1,52 @@
+body {
+    background-color: aliceblue;
+}
+
+.form_reg {
+    box-sizing: border-box;
+}
+
+.form_reg {
+    width: 390px;
+    background-color: #C7003D;
+    padding: 30px;
+    margin: auto;
+    margin-top: 110px;
+    border-radius: 5px;
+    color: white;
+}
+
+.form_reg h4 {
+    font-size: 24px;
+    margin-bottom: 19px;
+}
+
+.control {
+    width: 100%;
+    background: floralwhite;
+    padding: 10px;
+    border-radius: 3px;
+    margin-bottom: 16px;
+    border: 1px solid #DC3545;
+    font-size: 17px;
+}
+
+.form_reg a {
+    color: white;
+    text-decoration: none;
+}
+
+.form_reg a:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.form_reg .boton {
+    width: 100%;
+    background-color: red;
+    border: none;
+    padding: 14px;
+    color: white;
+    margin: 17px 0;
+    font-size: 15;
+}
